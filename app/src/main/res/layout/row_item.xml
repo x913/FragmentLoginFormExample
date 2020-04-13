@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+
+    <TextView
+        android:background="@color/colorAccent"
+        android:id="@+id/name"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:text="John Doe" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:background="@color/colorAccent"
+        android:gravity="center_vertical"
+        android:text="doe@gmail.com"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
